@@ -5,13 +5,20 @@ class NavBar extends Component {
   render() {
     return (
       <header>
-        <ul id="headerButtons">
-          <li className="navButton"><Link to="#">Home</Link></li>
-          <li className="navButton"><Link to="#">About</Link></li>
-          <li className="navButton"><Link to="#">Timeline</Link></li>
-          <li className="navButton"><Link to="#">Contact</Link></li>
+        
+        <div className="logo">
+          STEVIE
+        </div>
 
-        </ul>
+        <nav>
+          <ul id="headerButtons">
+            <li className="navButton"><Link to="/HomePage">Home</Link></li>
+            <li className="navButton"><Link to="/AboutPage">About</Link></li>
+            <li className="navButton"><Link to="/TimelinePage">Timeline</Link></li>
+            <li className="navButton"><Link to="/ContactPage">Contact</Link></li>
+          </ul>
+        </nav>
+      
       </header>
     );
   }

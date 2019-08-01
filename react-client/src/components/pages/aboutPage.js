@@ -1,17 +1,17 @@
 import React, { Component } from 'react';
 
-class HomePage extends Component {
+class AboutPage extends Component {
   render() {
     return (
       <div className="container-fluid">
         
-        <h1>Home page Content</h1>
+        <h1>About page content</h1>
 
-        <p>Home page content goes here</p>
+        <p>About page content goes here</p>
 
       </div>
     )
   }
 }
 
-export default HomePage;
+export default AboutPage;
