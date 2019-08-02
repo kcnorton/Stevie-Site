@@ -10,6 +10,7 @@ import ContactPage from './pages/contactPage.js';
 import NavBar from './headerComponent/navBar.js';
 import Footer from './footerComponent/footer.js';
 
+
 class App extends Component {
   render() {
     return (

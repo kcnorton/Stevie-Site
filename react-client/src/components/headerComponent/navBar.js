@@ -12,10 +12,11 @@ class NavBar extends Component {
 
         <nav>
           <ul id="headerButtons">
-            <li className="navButton"><Link to="/HomePage">Home</Link></li>
-            <li className="navButton"><Link to="/AboutPage">About</Link></li>
-            <li className="navButton"><Link to="/TimelinePage">Timeline</Link></li>
-            <li className="navButton"><Link to="/ContactPage">Contact</Link></li>
+            <li className="navButton"><Link to="/ContactPage"><span>Contact</span></Link></li>
+            <li className="navButton"><Link to="/TimelinePage"><span>Timeline</span></Link></li>
+            <li className="navButton"><Link to="/AboutPage"><span>About</span></Link></li>
+            <li className="navButton"><Link to="/HomePage"><span>Home</span></Link></li>
+            
           </ul>
         </nav>
       
