@@ -28,6 +28,7 @@
     "react-dom": "^15.6.2",
     "react-router": "^4.3.1",
     "react-router-dom": "^4.3.1",
+    "react-timeline-scribble": "^1.0.14",
     "react-vertical-timeline-component": "^2.4.0",
     "style-loader": "^0.23.1",
     "webpack": "^3.12.0"

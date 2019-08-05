@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
-import Timeline from '../../timeline.js';
-
+import Stairs from '../../images/stairs.jpg';
+import CentralPark from '../../images/centralpark.jpg';
+import Walter from '../../images/stevienwalter.jpg';
+import Puppy from '../../images/puppystevie.jpg';
+import Snowstorm from '../../images/baltimoresnow.jpg';
 
 class TimelinePage extends Component {
   function () {
@@ -28,64 +31,57 @@ class TimelinePage extends Component {
         items[i].classList.add("in-view");
       }
     }
-  }
-
-  // listen for events
-  window.addEventListener("load", callbackFunc);
-  window.addEventListener("resize", callbackFunc);
-  window.addEventListener("scroll", callbackFunc);
-
+  }  
 };
+
+// listen for events
+componentDidMount() {
+    window.addEventListener("load", callbackFunc)
+    window.addEventListener("resize", callbackFunc)
+    window.addEventListener("scroll", callbackFunc)
+}
   render() {
     return (
-      <div className="container-fluid" onScroll={this.function()}>
+      <div className="container-fluid">
       	<div className="container timeline">
         
         	<h1>Stevie's Timeline </h1>
-        
-        	<p>Stevie is always up for an adventure. She has lived in four states and visited eight.</p>
-
-        	<p>Stevie is born in Florida. spends early years in Gainesville at the University of Florida. She takes trips to Georgia to visit family.</p>
-        	<p>Stevie graduates college and moves to Tennessee. She loves to go hiking and climbing.</p>
-        	<p>Stevie moves to Maryland where she continues to find new hikes in Maryland and Virginia. She takes a trip to Boston to visit old friends. She plays in her first snowstorm in Baltimore.</p>
-        	<p>Stevie visits North Carolina with her sister and her aunt.</p>
-        	<p>Stevie moves to New York City and continues to enjoy hikes around New York.</p>
-        //stevies birthdays
-        //stevies surgery
-        //stevie established her first boulder
-        //stevie hangs around climbing gyms in new york
-        //stevie loves swimming
-        //stevie protects me from a bears
 
           <ul>
             <li>
-              <div>
-                <time>2012</time> Stevie was born.
+              <div className="timelineImage">
+                <img src={Puppy} alt="puppy stevie"/>
+                <time>2012</time> Stevie was born on August 19th and spent the first couple of months in Sarasota, FL with her nine siblings.
               </div>
             </li>
             <li>
-              <div>
-                <time>1937</time> Proin quam velit, efficitur vel neque vitae, rhoncus commodo mi. Suspendisse finibus mauris et bibendum molestie. Aenean ex augue, varius et pulvinar in, pretium non nisi.
+              <div className="timelineImage">
+                <img src={Walter} alt="stevie and walter"/>
+                <time>2012</time> Stevie moved to Gainesville, FL and met her best friend Walter.
               </div>
             </li>
             <li>
-              <div>
-                <time>1940</time> Proin iaculis, nibh eget efficitur varius, libero tellus porta dolor, at pulvinar tortor ex eget ligula. Integer eu dapibus arcu, sit amet sollicitudin eros.
+              <div className="timelineImage">
+                <img src={Stairs} alt="stevie sitting on stairs"/>
+                <time>2014</time> Stevie moved to Chattanooga, TN where she enjoyed hiking and climbing in nearby forests and parks.
               </div>
             </li>
             <li>
-              <div>
-                <time>1943</time> In mattis elit vitae odio posuere, nec maximus massa varius. Suspendisse varius volutpat mattis. Vestibulum id magna est.
+              <div className="timelineImage">
+                <img src={Snowstorm} alt="stevie running in a snowstorm"/>
+                <time>2015</time> Stevie moved to Baltimore, MD and played in her first snowstorm.
               </div>
             </li>
             <li>
-              <div>
-                <time>1977</time> Vestibulum porttitor lorem sed pharetra dignissim. Nulla maximus, dui a tristique iaculis, quam dolor convallis enim, non dignissim ligula ipsum a turpis.
+              <div className="timelineImage">
+                <img src={CentralPark} alt="stevie glowing in central park"/>
+                <time>2017</time> Stevie moved to Brooklyn, NY and learned that she loves city life and all the people who pet her.
               </div>
             </li>
             <li>
-              <div>
-                <time>1985</time> In mattis elit vitae odio posuere, nec maximus massa varius. Suspendisse varius volutpat mattis. Vestibulum id magna est.
+              <div className="timelineImage">
+                <img src={Stairs} alt="stevie sitting on stairs"/>
+                <time>2019</time> Stevie established her first boulder
               </div>
             </li>
           </ul>
