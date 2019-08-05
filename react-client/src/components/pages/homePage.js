@@ -5,7 +5,7 @@ class HomePage extends Component {
   render() {
     return (
     	<div className="container-fluid">	
-      		<div className="grid-container">
+      		<div className="grid-container home">
       			<div className="row">
 
       				<div className="col-6">
