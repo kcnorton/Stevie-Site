@@ -1,5 +1,5 @@
 .container-fluid {
-  
+  font-family: Verdana, Geneva, sans-serif;
 }
 
 header {
@@ -11,15 +11,24 @@ header {
   color: white;
 }
 
+.header {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 70em;
+  font-family: Verdana, Geneva, sans-serif;
+}
+
 #headerButtons {
   list-style-type: none;
   margin: 0;
   padding: 0;
+  font-size: 1.1em;
 }
 
 .logo {
   position: absolute;
   padding: 1em 0 0 1.5em;
+  font-size: 1.1em;
 }
 
 .navButton {
@@ -29,8 +38,21 @@ header {
   display: inline-block;
 }
 
+span:hover {
+  color: teal;
+}
+
 span {
   color: white;
+}
+
+h1 {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+p {
+  font-size: 1.3em;
 }
 
 /*Home styling*/
