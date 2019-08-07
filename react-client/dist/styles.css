@@ -38,11 +38,11 @@ header {
   display: inline-block;
 }
 
-span:hover {
+.navButton span:hover {
   color: teal;
 }
 
-span {
+.navButton span {
   color: white;
 }
 
@@ -127,8 +127,15 @@ p {
   position: relative;
   width: 6px;
   margin: 0 auto;
-  padding-top: 50px;
   background: BurlyWood;
+}
+
+.timeline ul li:not(:first-child) {
+  padding-top: 125px;
+}
+
+Fade {
+  .5s ease-in-out;
 }
 
 .timeline ul li::after {
@@ -198,35 +205,6 @@ time {
   margin-left: auto;
 }
 
-/*Timeline effects
-.timeline ul li::after {
-  transition: background .5s ease-in-out;
-}
-
-.timeline ul li.in-view::after {
-  background: #F45B69;
-}
-
-.timeline ul li div {
-  visibility: hidden;
-  opacity: 0;
-  transition: all .5s ease-in-out;
-}
-
-.timeline ul li:nth-child(odd) div {
-  transform: translate3d(200px, 0, 0);
-}
-
-.timeline ul li:nth-child(even) div {
-  transform: translate3d(-200px, 0, 0);
-}
-
-.timeline ul li.in-view div {
-  transform: none;
-  visibility: visible;
-  opacity: 1;
-}
-*/
 /*Timeline media queries*/
 @media screen and (max-width: 900px) {
   .timeline ul li div {

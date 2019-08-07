@@ -26,6 +26,7 @@
     "express": "^4.17.1",
     "react": "^15.6.2",
     "react-dom": "^15.6.2",
+    "react-reveal": "^1.2.2",
     "react-router": "^4.3.1",
     "react-router-dom": "^4.3.1",
     "react-timeline-scribble": "^1.0.14",
