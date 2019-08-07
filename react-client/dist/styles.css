@@ -62,23 +62,6 @@ p {
   max-width: 70em;
 }
 
-/*About styling*/
-
-.about {
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 70em;
-}
-
-.grid-container {
-  display: grid;
-  justify-content: space-evenly;
-}
-
-.row {
-  padding: 15px;
-}
-
 .col-6 {
   float: left;
   width: 50%;
@@ -94,14 +77,31 @@ p {
   margin-left: auto;
 }
 
+/*About styling*/
+
+.about {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 70em;
+}
+
+.grid-container {
+  display: grid;
+  justify-content: space-evenly;
+}
+
+.row {
+  padding: 15px;
+  display: flex;
+}
+
 .col-4 {
   float: left;
   padding: 15px;
-  border: 5px solid black;
   width: 30%;
-  height: 100px;
   margin: 10px;
   text-align: center;
+  background: rgba(222, 184, 135, 0.3);
 }
 
 .row::after {
@@ -135,7 +135,7 @@ p {
 }
 
 Fade {
-  .5s ease-in-out;
+  .75s ease-in-out;
 }
 
 .timeline ul li::after {

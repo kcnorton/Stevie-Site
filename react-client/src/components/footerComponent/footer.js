@@ -5,7 +5,7 @@ class Footer extends Component {
     return (
       <footer>
         <div>
-          Footer component
+          Stevie 2019
         </div>
       </footer>
     )

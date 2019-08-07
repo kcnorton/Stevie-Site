@@ -14,6 +14,8 @@ class TimelinePage extends Component {
         
         	<h1>Stevie's Timeline </h1>
 
+          <p>Stevie loves to travel, meet new people, and experience the world around her. Here is a brief summary of some of her travels.</p> 
+
           <ul>
             <li>
               <Fade right>
