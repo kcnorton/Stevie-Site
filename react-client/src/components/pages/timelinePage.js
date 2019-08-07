@@ -29,7 +29,7 @@ class TimelinePage extends Component {
               <Fade left>
                 <div className="timelineImage">
                   <img src={Walter} alt="stevie and walter"/>
-                  <time>2012</time> Stevie moved to Gainesville, FL and met her best friend Walter.
+                  <time>2012</time> Stevie moved to Gainesville, FL and met her best friend Walter, a Louisiana Catahoula Leopard dog.
                 </div>
               </Fade>
             </li>
@@ -37,7 +37,7 @@ class TimelinePage extends Component {
               <Fade right>
                 <div className="timelineImage">
                   <img src={Stairs} alt="stevie sitting on stairs"/>
-                  <time>2014</time> Stevie moved to Chattanooga, TN where she enjoyed hiking and climbing in nearby forests and parks.
+                  <time>2014</time> Stevie moved to Chattanooga, TN where she enjoyed hiking and climbing in the southeastern forests and mountains.
                 </div>
               </Fade>
             </li>
