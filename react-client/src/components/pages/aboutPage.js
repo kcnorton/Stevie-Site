@@ -12,7 +12,7 @@ class AboutPage extends Component {
         
         	<h1>About Stevie</h1>
 
-        	<p>Stevie was born in Florida on a hot summer morning. She was the runt from a litter of ten puppies. Stevie enjoys moderate hikes, lots of swimming, and fetch, but her favorite thing to do is lay on the couch and cuddle.</p>
+        	<p>Stevie was born in Florida on a hot summer morning. She was the runt from a litter of ten puppies. Stevie enjoys moderate hikes, lots of swimming, and fetch, but her favorite thing to do is lay on the couch and cuddle. Below are a few fun facts about Stevie.</p>
 
         	<div className="grid-container">
         		<div className="row">
