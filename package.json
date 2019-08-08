@@ -36,5 +36,8 @@
   },
   "devDependencies": {
     "file-loader": "^4.1.0"
+  },
+  "engines": {
+    "node": "10.16.1"
   }
 }
