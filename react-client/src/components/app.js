@@ -7,6 +7,7 @@ import HomePage from './pages/homePage.js';
 import AboutPage from './pages/aboutPage.js';
 import TimelinePage from './pages/timelinePage.js';
 import ContactPage from './pages/contactPage.js';
+import DogPage from './pages/dogPage.js';
 import NavBar from './headerComponent/navBar.js';
 import Footer from './footerComponent/footer.js';
 
@@ -23,6 +24,7 @@ class App extends Component {
           <Route name="about" exact path="/AboutPage" component={AboutPage} />
           <Route name="timeline" exact path="/TimelinePage" component={TimelinePage} />
           <Route name="contact" exact path="/ContactPage" component={ContactPage} />
+          <Route name="dog" exact path="/DogPage" component={DogPage} />
 
           <Footer />
         </div>

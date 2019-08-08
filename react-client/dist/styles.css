@@ -240,6 +240,13 @@ time {
   max-width: 70em;
 }
 
+/*Friends & Family styling*/
+.dogs {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
 footer {
   display: block;
   width: 100%;
