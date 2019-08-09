@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import DogList from './DogList.js';
+import DogList from './dogList.js';
 
 class DogPage extends Component {
   constructor(props) {
