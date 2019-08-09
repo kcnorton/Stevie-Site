@@ -10,14 +10,14 @@ class DogPage extends Component {
   }
 
   componentDidMount() {
-    fetch('https://dog.ceo/api/breed/retriever/golden/images/random/5').then((results) => results.json()).then((data) => {this.setState({ dogs: data.message })
+    fetch('https://dog.ceo/api/breed/retriever/golden/images/random/50').then((results) => results.json()).then((data) => {this.setState({ dogs: data.message })
     })
   }
 
   render() {
     return (
       <div className="container-fluid">
-      	<div className="container dogs">
+      	<div className="dogs">
           
           <DogList dogs={this.state.dogs} />
         

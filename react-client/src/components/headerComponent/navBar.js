@@ -12,8 +12,8 @@ class NavBar extends Component {
 
           <nav>
             <ul id="headerButtons">
-              <li className="navButton"><Link to="/DogPage"><span>Friends & Family</span></Link></li>
               <li className="navButton"><Link to="/ContactPage"><span>Contact</span></Link></li>
+              <li className="navButton"><Link to="/DogPage"><span>Friends & Family</span></Link></li>
               <li className="navButton"><Link to="/TimelinePage"><span>Timeline</span></Link></li>
               <li className="navButton"><Link to="/AboutPage"><span>About</span></Link></li>
               <li className="navButton"><Link to="/HomePage"><span>Home</span></Link></li>

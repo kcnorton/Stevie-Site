@@ -23,8 +23,8 @@ class App extends Component {
           <Route name="home" exact path="/HomePage" component={HomePage} />
           <Route name="about" exact path="/AboutPage" component={AboutPage} />
           <Route name="timeline" exact path="/TimelinePage" component={TimelinePage} />
-          <Route name="contact" exact path="/ContactPage" component={ContactPage} />
           <Route name="dog" exact path="/DogPage" component={DogPage} />
+          <Route name="contact" exact path="/ContactPage" component={ContactPage} />
 
           <Footer />
         </div>
