@@ -1,5 +1,5 @@
 # Building a Reactjs site
-I forked a starter repo from https://github.com/pa87901/repoStarterKit to build my own Reactjs site. This is a site I made for my dog Stevie to practice React.
+I forked a starter repo from https://github.com/pa87901/repoStarterKit to build my own Reactjs site. This is a site I made to experiment with React. It is a site for my dog Stevie.
 
 
 ## Tech stack
