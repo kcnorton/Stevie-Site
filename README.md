@@ -1,6 +1,5 @@
-# Start building your own website
-This is a repository that I created to help others develop their websites in React.
-
+# Building a Reactjs site
+I forked a starter repo from https://github.com/pa87901/repoStarterKit to build my own Reactjs site. This is a site I made for my dog Stevie to practice React.
 
 
 ## Tech stack
@@ -27,24 +26,3 @@ Once this repo is cloned to your local drive, from within the root directory:
 ```
 npm install
 ```
-
-
-
-## Additional information
-More granular instructions as a guide to building a website are included in my [blog post](https://medium.com/@Preda/getting-started-on-building-a-personal-website-with-react-b44ee93b1710), if needed.
-
-
-### The steps to create a website include:
-1. File architecture
-2. Setting up the basic environment in Node
-3. Installing the React framework
-4. Creating a webpack and configuration
-5. Building the basic front-end components
-6. Styling and CSS
-7. Viewing on local host
-8. Deploying on Heroku
-
-
-
-## Author
-Preda A
