@@ -17,12 +17,16 @@ class DogPage extends Component {
   render() {
     return (
       <div className="container-fluid">
-      	<div className="dogs">
-          
+        <div className="dogs">
+        
+          <h1>Friends & Family</h1>
+
+          <p>This page is connected to the Dog API in order to display a page of Stevie's friends and family. Refresh for new faces. Enjoy!</p>
+
           <DogList dogs={this.state.dogs} />
         
 
-      	</div>
+        </div>
       </div>
     )
   }
